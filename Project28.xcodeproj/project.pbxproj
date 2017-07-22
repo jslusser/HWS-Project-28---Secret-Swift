@@ -12,6 +12,8 @@
 		9434D3D61F23CAB300D8D65B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9434D3D41F23CAB300D8D65B /* Main.storyboard */; };
 		9434D3D81F23CAB300D8D65B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9434D3D71F23CAB300D8D65B /* Assets.xcassets */; };
 		9434D3DB1F23CAB300D8D65B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9434D3D91F23CAB300D8D65B /* LaunchScreen.storyboard */; };
+		9434D3E41F23CF2300D8D65B /* KeychainOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9434D3E21F23CF2300D8D65B /* KeychainOptions.swift */; };
+		9434D3E51F23CF2300D8D65B /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9434D3E31F23CF2300D8D65B /* KeychainWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		9434D3D71F23CAB300D8D65B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9434D3DA1F23CAB300D8D65B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9434D3DC1F23CAB300D8D65B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9434D3E21F23CF2300D8D65B /* KeychainOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainOptions.swift; sourceTree = "<group>"; };
+		9434D3E31F23CF2300D8D65B /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				9434D3D71F23CAB300D8D65B /* Assets.xcassets */,
 				9434D3D91F23CAB300D8D65B /* LaunchScreen.storyboard */,
 				9434D3DC1F23CAB300D8D65B /* Info.plist */,
+				9434D3E21F23CF2300D8D65B /* KeychainOptions.swift */,
+				9434D3E31F23CF2300D8D65B /* KeychainWrapper.swift */,
 			);
 			path = Project28;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9434D3D31F23CAB300D8D65B /* ViewController.swift in Sources */,
+				9434D3E51F23CF2300D8D65B /* KeychainWrapper.swift in Sources */,
+				9434D3E41F23CF2300D8D65B /* KeychainOptions.swift in Sources */,
 				9434D3D11F23CAB300D8D65B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +312,7 @@
 				9434D3E11F23CAB300D8D65B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
